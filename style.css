@@ -1,0 +1,232 @@
+
+li.e-theme {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 10;
+  padding: 10;
+}
+
+ul.e-question {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p.hel {
+ font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.ticket_outer {
+  padding: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 100%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  flex-direction: row;
+  display: flex;
+}
+.ticket {
+}
+.theorem_el {
+  background-color: #EFF;
+}
+
+.alg_el {
+  background-color: #FEF;
+}
+
+.need-proof {
+  position: absolute;
+  top:2px;
+  right: 10px;
+  padding: 2px;
+  padding-top: 0px;
+  padding-left: 12px;
+  font-size: 24px;
+  width: 30px;
+  height: 30px;
+}
+li.e-question {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  position: relative;
+  padding-right: 40px;
+}
+
+li.e-question:hover {
+  border-bottom: 1px solid #dde;
+  background: #eeeeff;
+  cursor:pointer;
+}
+
+li.e-question:last-child {
+  border: none;
+}
+
+a.hint{
+	cursor:help;
+  text-decoration: none;
+}
+a.hint:hover{
+	cursor:help;
+  text-decoration: none;
+  background: #ffffff;
+}
+
+li a:hover {
+  background: #deedff;
+}
+
+.collapsable {
+	font: 200 15px/1.5 Helvetica, Verdana, sans-serif;
+  border: 1px solid #cddcee;
+	padding: 10px;
+	margin: 10px;
+	background: #deedff;
+}
+
+.button {
+  font: 200 15px/1.5 Helvetica, Verdana, sans-serif;
+  border: 1px solid #cddcee;
+  padding: 5px;
+  background: #deedff;
+  cursor:pointer;
+  display: inline;
+}
+
+.sm-img{
+  width:700px;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+.attention {
+  background:#f99;
+  border:#822;
+  padding: 10px;
+  margin: 10px;
+}
+.button:hover {
+  background: #cddcee;
+}
+
+.button-group {
+  border: 1px solid #cddcee;
+  padding: 5px;
+  margin: 10px;
+}
+
+#wrapper {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.m-shadow {
+  box-shadow: 0px 0px 60px #e0f2f1b3;
+}
+
+.wblock {
+  background-color:#FFF;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.th{
+  background: #e0f2f1;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  padding: 1em;
+}
+
+.th:before {
+   content: "Теорема.";
+   font-weight: bold;
+   font-style: normal;
+}
+
+.th-small:before {
+  content: "Утверждение.";
+}
+
+.th-then:before {
+  content: "Следствие.";
+}
+
+.proof{
+  background: #e0f2f1;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.proof:before {
+   content: "Доказательство:";
+   font-weight: bold;
+   font-style: normal;
+}
+
+.def{
+  padding: 1em;
+  background: #e8f5e9;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.def:target, .th:target{
+  border: 1px solid red;
+}
+
+.def:before {
+   content: "Определение.";
+   font-weight: bold;
+   font-style: normal;
+}
+
+.spl{
+  display: inline-block;
+  background: black;
+}
+.spl span{
+  visibility: hidden;
+}
+.spl:hover{
+  background: white;
+}
+.spl:hover span{
+  visibility: visible;
+}
+
+.canvas-wrapper canvas, .canvas-wrapper span{
+  margin: 0 auto;
+  display: block;
+  border:  1px solid #e0f2f1b3;
+  width: 400px;
+}
+
+.canvas-wrapper {
+  margin-bottom: 10px;
+}
+
+.ticket-question {
+  font-weight: bold;
+}
+
+.btn-wr {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.feedback {
+  padding: 1em;
+  background: #34ff43;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
