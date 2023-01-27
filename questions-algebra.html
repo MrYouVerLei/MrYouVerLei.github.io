@@ -28,5 +28,20 @@
 </ol>
 </div>
 <script src="./list.js"></script>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+    $('.e-question > .collapsable').hide();
+    $('.e-question').click(function(){
+    	$(this).children(".collapsable").toggle();
+	});
+	$('.expand-all').click(function(){
+    	$('.e-question > .collapsable').show();
+	});
+	$('.collapse-all').click(function(){
+    	$('.e-question > .collapsable').hide();
+	});
+}); 
+</script>
 </body>
 </html>
