@@ -86,7 +86,7 @@ class Question extends React.Component {
           title = 'Знать алгоритм';
           alg = true;
         } else if(this.props.question.type == 'def') {
-          title = 'Привести определениеSH';
+          title = 'Привести определЕние';
         } else if(this.props.question.type == 'th' && this.props.question.difficulty) {
           title = 'Доказательство может идти отдельным вопросом';
           mark = true;
