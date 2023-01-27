@@ -3,7 +3,7 @@
 	 "link":"materials/1.html",
 	 "h" : 1,
 		"items":[
-			{"name":"Отображение", "type":"def", "id":1, "parents":[], "p":{"t":0,"l":600}},
+			{"name":"Отображение", "type":"def", "id":1, "parents":[], "p":{"t":0,"l":600}, "q":"schliessen"},
 			{"name":"Сюръекция", "type":"def", "id":2, "parents":[1], "p":{"t":90,"l":450}},
 			{"name":"Инъекция", "type":"def", "id":3, "parents":[1], "p":{"t":90,"l":750}},
 			{"name":"Биекция", "type":"def", "id":4, "parents":[2,3],"p":{"t":200,"l":600}},
