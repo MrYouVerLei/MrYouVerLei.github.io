@@ -7,7 +7,6 @@
 <script type="text/javascript" async
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
@@ -27,20 +26,5 @@
 </ol>
 </div>
 <script src="./list.js"></script>
-<script>
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip(); 
-    $('.e-question > .collapsable').hide();
-    $('.e-question').click(function(){
-    	$(this).children(".collapsable").toggle();
-	});
-	$('.expand-all').click(function(){
-    	$('.e-question > .collapsable').show();
-	});
-	$('.collapse-all').click(function(){
-    	$('.e-question > .collapsable').hide();
-	});
-}); 
-</script>
 </body>
 </html>
