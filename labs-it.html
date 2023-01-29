@@ -30,19 +30,16 @@
 <script>
 
 $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip(); 
     $('.e-question > .collapsable').hide();
-    $('.e-question').click(function(){
-    	$(this).children(".collapsable").toggle();
-	});
-	$('.expand-all').click(function(){
-    	$('.e-question > .collapsable').show();
-	});
-	$('.collapse-all').click(function(){
-    	$('.e-question > .collapsable').hide();
-	});
-}); 
-
+    $('.e-question').click(function () {
+      $(this).siblings()
+        .children()
+        .slideUp("slow");
+      $(this)
+      	.children()
+        .slideDown("slow");
+    });
+});
 </script>
 </body>
 </html>
