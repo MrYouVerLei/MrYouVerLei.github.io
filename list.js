@@ -125,8 +125,7 @@ class Theme extends React.Component {
                         e('ol',{},
                         this.props.theme.items.map(item =>
                             e(Question,{question: item})
-                        )),
-                        e('div', {}, this.props.theme.item.description)
+                        ))
                     ]
                 );
     }
