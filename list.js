@@ -106,11 +106,11 @@ class Question extends React.Component {
 
           [
             mark? e('div',{class:'need-proof'},'💎') :'',
-            description? e('div',{class:'collapsable'},this.props.question.description) :'',
             glossaryEntry? e('a',{
                                     href:'https://moodle.uniyar.ac.ru/mod/glossary/showentry.php?eid='+glossaryEntry,
                                     target:'_blank'
                                   },this.props.question.name) :this.props.question.name,
+            description? e('div',{class:'collapsable'},this.props.question.description) :'',
 
           ]);
     }
