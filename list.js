@@ -81,7 +81,10 @@ class Question extends React.Component {
         super(props);
     }
     render() {
-        var title, mark, glossaryEntry, theorem, alg = false;
+        var title, mark, glossaryEntry, theorem, alg, description = false;
+        if(this.props.question.description) {
+          description = true;
+        }
         if(this.props.question.type == 'alg') {
           title = 'Знать алгоритм';
           alg = true;
@@ -103,6 +106,7 @@ class Question extends React.Component {
 
           [
             mark? e('div',{class:'need-proof'},'💎') :'',
+            description? e('div',{class:'collapsable'},this.props.question.description) :'',
             glossaryEntry? e('a',{
                                     href:'https://moodle.uniyar.ac.ru/mod/glossary/showentry.php?eid='+glossaryEntry,
                                     target:'_blank'
